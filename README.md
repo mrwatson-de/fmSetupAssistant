@@ -1,2 +1,14 @@
+![fmSetupAssistant](fmSetupAssistant_Icon.png)
+
 # fmSetupAssistant
-A tool to setup your FileMaker workstations
+[What's your preference?]
+
+An assistant to setup your FileMaker workstations.
+
+
+
+# Links
+
+- Home: https://fmworkmate.com/fmsetupassistant
+- Repo: https://github.com/mrwatson-de/fmSetupAssistant
+- Latest Release: https://github.com/mrwatson-de/fmSetupAssistant/releases/latest
