@@ -1,41 +1,63 @@
 ![fmSetupAssistant](fmSetupAssistant_Icon.png)
 
-# fmSetupAssistant
-[What's your preference?]
+# fmSetupAssistant<sup>(⍺)</sup>
+[Setup made easy]
 
-An assistant to setup your FileMaker workstations.
+fmSetupAssistant is an assistant to setup your FileMaker workstations easily and automatically.
 
-*Caution: fmSetupAssistant is Alpha Preview software(*)*
+**Important:** fmSetupAssistant<sup>(⍺)</sup> is Alpha Preview software, please read the disclaimer, below.
 
-**With fmSetupAssistant you can (safely)…**
+## fmSetupAssistant aims to…
 
-- get an instant report/list of setup-issues on the setup of a computer
+- make setting up a Filemaker workstation as easy as possible
+  - make it possible to get a quick overview of a Filemaker workstation setup
+  - make manual setup of a Filemaker workstation quick and easy
+  - facilitate setting up Filemaker workstations automatically
+- integrate easily with your FileMaker solution
+
+## With fmSetupAssistant…
+
+…you can safely…
+
+- get an instant report on the setup of a computer
 - peruse filemaker & script preferences in one place
 - jump directly to the respective preference dialog
   - indeed fmSetupAssistant can see (virtually) any preferences on the machine, system, finder, etc…
-- use or create profiles to check a computer against a particular desired setup
+- use or create configuration profiles ('configs') to check a computer against a specific target setup
+
 
 ![fmSetupAssistant](fmSetupAssistant_Settings_Standard_User_Workspace.png)
 
+For example, in the above image you can see 3 issues - 2 errors and a warning.
 
-**fmSetupAssistant aims to…**
+## You can also…
 
-- Fix settings in one click (*) to make setting up a machine a matter of clicks
-- Apply a whole profile to setup a machine in a few clicks (*)
+- fix settings in one click (*) to make setting up a machine a matter of clicks
+- apply a whole profile to setup a machine in a few clicks (*)
 
-**Please help…**
+Please note that this software is in development and be sure to read the following caution,
 
-…improve the software by logging issues or collaborating with mrwatson to make this a power-tool for all FileMaker developers!
+## Disclaimer (⍺) Alpha Preview software
 
----
+fmSetupAssistant is a new tool still in development (alpha phase). Whilst taking every precaution to make the software safe to use, there is no guarantee it will work
 
-(*) **Caution** 
-- fmSetupAssistant is a new tool still in development (alpha phase).
-- fmSetupAssistant interacts directly with your preferences files, and can break them (causing FileMaker to crash on start), if a setting is written with the wrong data type.
+- fmSetupAssistant interacts directly with your preferences files/with the Windows registry, and can break them (causing FileMaker to crash on start), if a setting is written with the wrong data type.
 - fmSetupAssistant thus starts in safe, read-only mode
-- While irritating, all is not lost (just your preferences) The simple recovery from this situation is to simply delete the foul preferences file.
-- It is, however, thus recommended you **make a backup copy of your FileMaker preferences file(s) before using the automatic-setup / fix functionality**
+- You **are reponsible for making a backup copy of your FileMaker preferences file(s) / FileMaker Registry Keys *before* using the automatic-setup / fix functionality**
 
+## Recovering from broken preferences files
+
+On Mac
+
+- While irritating, all is not lost (just your preferences) The simple recovery from this situation is to delete the foul preferences file. The FileMaker prefs file is located at `*`~/Library/Preferences/com.filemaker.client.pro12.plist`*`
+
+On Windows
+
+- To be sure and safe use a Windows Recovery Point to make a return to a previous state possible.
+
+## Contributions & Collaborations welcome!
+
+Whether it be by using, testing, logging issues or sharing your ideas and opinions on this software / collaborating with mrwatson, please feel free to help improve this software and make this a power-tool for all FileMaker developers
 
 # Links
 
