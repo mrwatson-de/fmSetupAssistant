@@ -7,6 +7,8 @@ fmSetupAssistant is an assistant to setup your FileMaker workstations easily and
 
 **Important:** fmSetupAssistant<sup>(⍺)</sup> is Alpha Preview software, please read the disclaimer, below.
 
+fmSetupAssistant has been updated to fix the issue with File Cache introduced in FM21.
+
 ## fmSetupAssistant aims to…
 
 - make setting up a Filemaker workstation as easy as possible
@@ -55,7 +57,7 @@ On Windows
 
 - To be sure and safe use a Windows Recovery Point to make a return to a previous state possible.
 
-## Contributions & Collaborations welcome!
+## Contributions & Collaborations welcome
 
 Whether it be by using, testing, logging issues or sharing your ideas and opinions on this software / collaborating with mrwatson, please feel free to help improve this software and make this a power-tool for all FileMaker developers
 
